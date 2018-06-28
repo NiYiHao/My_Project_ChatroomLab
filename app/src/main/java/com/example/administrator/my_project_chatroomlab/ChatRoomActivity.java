@@ -21,17 +21,15 @@ public class ChatRoomActivity extends AppCompatActivity {
             public void run() {
                 super.run();
                 try{
-                    sleep( 15000 );
+                    sleep( 10000 );
                 }catch(Exception e){
                     e.printStackTrace();
                 }finally {
-                    startActivity( new Intent( ChatRoomActivity.this,MainActivity.class ));
+                    startActivity( new Intent( ChatRoomActivity.this,LoginActivity.class ));
                     finish();
                 }
             }
         };
         thread.start();
-    }
-}
     }
 }

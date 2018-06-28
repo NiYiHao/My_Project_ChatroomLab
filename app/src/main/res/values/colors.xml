@@ -6,4 +6,6 @@
     <color name="startColor">#0575E6</color>
     <color name="endColor">#00b09b</color>
     <color name="midColor">#00F260</color>
+    <color name="RoomStartColor">#74ebd5</color>
+    <color name="RoomEdnColor">#fff</color>
 </resources>

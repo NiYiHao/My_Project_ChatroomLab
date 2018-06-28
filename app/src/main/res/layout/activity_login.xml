@@ -91,20 +91,20 @@
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="138dp"
-        android:layout_height="93dp"
+        android:layout_height="125dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="40dp"
         android:src="@drawable/login_1"
         app:layout_constraintEnd_toStartOf="@+id/btnlogin"
-        app:layout_constraintHorizontal_bias="0.285"
+        app:layout_constraintHorizontal_bias="0.555"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
 
     <Button
         android:id="@+id/btnlogin"
         android:layout_width="215dp"
-        android:layout_height="83dp"
+        android:layout_height="169dp"
         android:layout_marginEnd="16dp"
         android:background="@drawable/loginbackground"
         android:text="快點登入拉！"

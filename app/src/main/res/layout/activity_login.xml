@@ -96,7 +96,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginStart="76dp"
         android:layout_marginTop="28dp"
-        android:src="@drawable/login_1"
+        android:src="@drawable/loginone"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/btnlogin"
         app:layout_constraintHorizontal_bias="0.0"

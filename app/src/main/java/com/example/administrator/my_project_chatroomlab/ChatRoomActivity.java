@@ -26,7 +26,7 @@ public class ChatRoomActivity extends AppCompatActivity {
             public void run() {
                 super.run();
                 try{
-                    sleep( 10000 );
+                    sleep( 1000 );
                 }catch(Exception e){
                     e.printStackTrace();
                 }finally {
